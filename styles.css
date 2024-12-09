@@ -31,3 +31,19 @@ img {
 .m-auto {
     margin: auto;
 }
+table{
+    table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+    
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+        }
+    
+        tr:nth-child(even) {
+            background-color: #D6EEEE;
+        }
+}
